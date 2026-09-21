@@ -1,21 +1,20 @@
-# Geometric Shape Calculator
+# W3Schools Web Scraper
 
-A user-friendly console application built with Python that allows users to seamlessly calculate the Area of 2D shapes and the Volume of 3D shapes.
+A professional and clean Python web scraper built with requests and BeautifulSoup to extract titles and main paragraphs from W3Schools.
 
-## Features
-- **Calculates Area:** Supports Rectangle, Square, and Circle.
-- **Calculates Volume:** Supports Cube, Cylinder, and Rectangular Box.
-- **Robust Input Validation:** Uses intelligent recursive loops (`while True`) to handle incorrect inputs (strings or negative numbers) without crashing.
-- **Precise Formatting:** Converts and displays all mathematical outputs to exactly **two decimal places**.
-- **Interactive Session:** Greets the user and loops dynamically based on user feedback to perform consecutive calculations.
+##  Features
+- Fetches HTML data securely using proper headers.
+- Extracts main topic headers (`<h1>`) and text safely.
+- Implements error handling for internet connection failures.
 
-## Tech Stack
-- **Language:** Python 3
-- **Libraries:** Built-in `math` module
+##  Requirements
+Before running the script, ensure you have the required libraries installed:
+```bash
+pip install requests beautifulsoup4
+```
 
-## How to Run
-1. Clone the repository.
-2. Run the main script using Pycharm or Terminal:
-   ```bash
-   python script8.py
-   ```
+##  How to Run
+Run the specific script using the following command:
+```bash
+python script13.py
+```
